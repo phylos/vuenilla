@@ -24,8 +24,8 @@ Unstyled Vue.js component library.
 - Tooltip
 
 ### Links
-NPM: https://www.npmjs.com/package/vuenilla
-Demo: https://phylos.github.io/vuenilla/
+- NPM: https://www.npmjs.com/package/vuenilla
+- Demo: https://phylos.github.io/vuenilla/
 
 ### Contributers
-Tyler King: tking@phylos.bio
+- Tyler King: tking@phylos.bio
