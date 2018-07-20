@@ -1,6 +1,14 @@
 # Vuenilla
 Unstyled Vue.js component library.
 
+## Installing
+
+Using npm:
+
+```bash
+$ npm install --save vuenilla
+```
+
 ## Components
 - Accordion
 - Alert
