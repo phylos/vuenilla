@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img src="./assets/logo-vue.png">
+    <img src="./assets/vuenilla.svg">
     <h1>{{ msg }}</h1>
     <v-accordion></v-accordion>
     <v-alert></v-alert>
@@ -48,6 +48,9 @@ export default {
   margin-top: 60px;
 }
 
+img {
+  width: 320px;
+}
 h1, h2 {
   font-weight: normal;
 }
