@@ -1,12 +1,19 @@
 <template>
   <div id="app">
-    <img src="./assets/vuenilla.svg">
+    <img src="./assets/logo-vuenilla.svg">
     <h1>{{ msg }}</h1>
     <v-accordion></v-accordion>
     <v-alert></v-alert>
     <v-breadcrumbs></v-breadcrumbs>
     <v-button></v-button>
-    <v-card></v-card>
+
+    <v-card>
+      <template slot="header">Card title</template>
+      <template slot="image">Card image</template>
+      <template slot="content">Card content</template>
+      <template slot="footer">Card footer</template>
+    </v-card>
+
     <v-carousel></v-carousel>
     <v-dropdown></v-dropdown>
     <v-expander></v-expander>

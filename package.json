@@ -1,6 +1,6 @@
 {
   "name": "vuenilla",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Unstyled Vue.js component library.",
   "main": "index.js",
   "scripts": {
@@ -16,14 +16,14 @@
   ],
   "author": "Tyler King",
   "license": "MIT",
-  "dependencies": {
-    "vue": "^2.5.11"
-  },
   "browserslist": [
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
   ],
+  "dependencies": {
+    "vue": "^2.5.11"
+  },
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",

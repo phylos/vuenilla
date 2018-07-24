@@ -37,3 +37,6 @@ $ npm install --save vuenilla
 
 ### Contributers
 - Tyler King: tking@phylos.bio
+
+### License
+MIT
