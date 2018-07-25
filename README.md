@@ -28,7 +28,6 @@ $ npm install --save vuenilla
 - Tabs
 - Table
 - Testimonial
-- Toast
 - Tooltip
 
 ### Links
