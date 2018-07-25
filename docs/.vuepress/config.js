@@ -22,7 +22,26 @@ module.exports = {
         title: 'Components',
         collapsable: false,
         children: [
-          '/components/card'
+          '/components/accordion',
+          '/components/alert',
+          '/components/breadcrumbs',
+          '/components/button',
+          '/components/card',
+          '/components/carousel',
+          '/components/dropdown',
+          '/components/hero',
+          '/components/expander',
+          '/components/form',
+          '/components/icon',
+          '/components/list',
+          '/components/modal',
+          '/components/pagination',
+          '/components/slab',
+          '/components/tabs',
+          '/components/table',
+          '/components/testimonial',
+          '/components/toast',
+          '/components/tooltip'
         ]
       }
     ]
