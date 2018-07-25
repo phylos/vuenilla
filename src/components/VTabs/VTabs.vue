@@ -2,7 +2,7 @@
   <div class="v-tabs">
     <ul class="v-tab-title">
       <li v-for="tab in tabs" :key="tab.id" :class="{ 'tabActive': tab.tabActive }">
-        <a :href="tab.href" @click="tabClicked(tab)">{{ tab.name }}</a>
+        <a :href="tab.href" @click="tabClicked(tab)">{{ tab.title }}</a>
       </li>
     </ul>
     <slot />

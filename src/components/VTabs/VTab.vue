@@ -7,7 +7,7 @@
 <script>
   export default {
     props: {
-      name: { required: true },
+      title: { required: true },
       selected: { default: false }
     },
 
@@ -19,7 +19,7 @@
 
     computed: {
       href() {
-        return '#' + this.name.toLowerCase().replace(/ /g, '-');
+        return '#' + this.title.toLowerCase().replace(/ /g, '-');
       }
     },
 
