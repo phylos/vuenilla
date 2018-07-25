@@ -2,10 +2,14 @@
   <div id="app">
     <img src="./assets/logo-vuenilla.svg">
     <h1>{{ msg }}</h1>
-    
+
     <v-tabs>
-      <template slot="trigger">Tab trigger</template>
-      <template slot="content">Tab content</template>
+      <v-tab name="One" :selected="true">
+        <p>Tab content for first tab.</p>
+      </v-tab>
+      <v-tab name="Two">
+        <p>Tab content for second tab.</p>
+      </v-tab>
     </v-tabs>
 
     <p>Built by:</p>
