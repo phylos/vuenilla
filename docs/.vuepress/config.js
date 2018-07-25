@@ -8,6 +8,7 @@ module.exports = {
       { text: 'Styles', link: '/pages/styles' },
       { text: 'Roadmap', link: '/pages/roadmap' },
       { text: 'FAQ', link: '/pages/faq' },
+      { text: 'Thanks', link: '/pages/thanks' },
       { text: 'NPM', link: 'https://www.npmjs.com/package/vuenilla' },
       { text: 'Github', link: 'https://github.com/phylos/vuenilla' }
     ],
