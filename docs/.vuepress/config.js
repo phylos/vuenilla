@@ -4,20 +4,14 @@ module.exports = {
   description: 'Unstyled Vue.js component library.',
   themeConfig: {
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Phylos Bioscience', link: 'http://phylos.bio/' },
+      { text: 'Getting Started', link: '/pages/getting-started' },
+      { text: 'Styles', link: '/pages/styles' },
+      { text: 'Roadmap', link: '/pages/roadmap' },
+      { text: 'FAQ', link: '/pages/faq' },
+      { text: 'NPM', link: 'https://www.npmjs.com/package/vuenilla' },
+      { text: 'Github', link: 'https://github.com/phylos/vuenilla' }
     ],
     sidebar: [
-      {
-        title: 'Getting Started',
-        collapsable: false,
-        children: [
-          '/pages/install',
-          '/pages/styles',
-          '/pages/roadmap',
-          '/pages/faq'
-        ]
-      },
       {
         title: 'Components',
         collapsable: false,

@@ -2,7 +2,7 @@
 home: true
 heroImage: /logo-vuenilla.svg
 actionText: Get Started →
-actionLink: /pages/
+actionLink: /pages/getting-started
 features:
 - title: One
   details: Add a blurb about some awesome feature thats packed inside.
