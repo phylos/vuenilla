@@ -10,7 +10,6 @@ $ npm install --save vuenilla
 ```
 
 ## Components
-- Accordion
 - Alert
 - Breadcrumbs
 - Button
