@@ -12,17 +12,17 @@ module.exports = {
         title: 'Getting Started',
         collapsable: false,
         children: [
-          'Install',
-          'Styles',
-          'Roadmap',
-          'FAQ'
+          '/pages/install',
+          '/pages/styles',
+          '/pages/roadmap',
+          '/pages/faq'
         ]
       },
       {
         title: 'Components',
         collapsable: false,
         children: [
-          '/components/Card'
+          '/components/card'
         ]
       }
     ]
