@@ -17,7 +17,6 @@ import VSlab from './VSlab/'
 import VTabs from './VTabs/'
 import VTable from './VTable/'
 import VTestimonial from './VTestimonial/'
-import VToast from './VToast/'
 import VTooltip from './VTooltip/'
 
 Vue.component('v-accordion', VAccordion);
@@ -38,5 +37,4 @@ Vue.component('v-slab', VSlab);
 Vue.component('v-tabs', VTabs);
 Vue.component('v-table', VTable);
 Vue.component('v-testimonial', VTestimonial);
-Vue.component('v-toast', VToast);
 Vue.component('v-tooltip', VTooltip);

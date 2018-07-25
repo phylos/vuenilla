@@ -34,7 +34,6 @@ module.exports = {
           '/components/tabs',
           '/components/table',
           '/components/testimonial',
-          '/components/toast',
           '/components/tooltip'
         ]
       }

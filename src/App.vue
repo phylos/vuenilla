@@ -2,7 +2,12 @@
   <div id="app">
     <img src="./assets/logo-vuenilla.svg">
     <h1>{{ msg }}</h1>
-    <v-accordion></v-accordion>
+    
+    <v-accordion>
+      <template slot="trigger">Accordion trigger</template>
+      <template slot="content">Accordion content</template>
+    </v-accordion>
+
     <v-alert></v-alert>
     <v-breadcrumbs></v-breadcrumbs>
     <v-button></v-button>
