@@ -34,7 +34,6 @@ $ npm install --save vuenilla
 ### Links
 - Docs: https://phylos.github.io/vuenilla/
 - NPM: https://www.npmjs.com/package/vuenilla
-- Demo: https://phylos.github.io/vuenilla/
 
 ### Contributers
 - Tyler King: tking@phylos.bio
