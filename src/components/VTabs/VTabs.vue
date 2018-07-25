@@ -22,9 +22,9 @@
     },
     
     methods: {
-      tabClicked(selectedTab) {
+      tabClicked(tabClicked) {
         this.tabs.forEach(tab => {
-          tab.tabActive = (tab.href == selectedTab.href);
+          tab.tabActive = (tab.href == tabClicked.href);
         });
       }
     }
