@@ -1,5 +1,0 @@
----
-title: Accordion
----
-
-# Accordion

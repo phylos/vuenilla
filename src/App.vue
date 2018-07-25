@@ -3,37 +3,11 @@
     <img src="./assets/logo-vuenilla.svg">
     <h1>{{ msg }}</h1>
     
-    <v-accordion>
-      <template slot="trigger">Accordion trigger</template>
-      <template slot="content">Accordion content</template>
-    </v-accordion>
+    <v-tabs>
+      <template slot="trigger">Tab trigger</template>
+      <template slot="content">Tab content</template>
+    </v-tabs>
 
-    <v-alert></v-alert>
-    <v-breadcrumbs></v-breadcrumbs>
-    <v-button></v-button>
-
-    <v-card>
-      <template slot="header">Card title</template>
-      <template slot="image">Card image</template>
-      <template slot="content">Card content</template>
-      <template slot="footer">Card footer</template>
-    </v-card>
-
-    <v-carousel></v-carousel>
-    <v-dropdown></v-dropdown>
-    <v-expander></v-expander>
-    <v-form></v-form>
-    <v-hero></v-hero>
-    <v-icon></v-icon>
-    <v-list></v-list>
-    <v-modal></v-modal>
-    <v-pagination></v-pagination>
-    <v-slab></v-slab>
-    <v-table></v-table>
-    <v-tabs></v-tabs>
-    <v-testimonial></v-testimonial>
-    <v-toast></v-toast>
-    <v-tooltip></v-tooltip>
     <p>Built by:</p>
     <img src="./assets/logo-phylos.svg">
   </div>

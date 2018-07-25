@@ -16,7 +16,6 @@ module.exports = {
         title: 'Components',
         collapsable: false,
         children: [
-          '/components/accordion',
           '/components/alert',
           '/components/breadcrumbs',
           '/components/button',
