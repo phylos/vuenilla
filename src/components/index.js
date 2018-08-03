@@ -1,5 +1,4 @@
 import Vue from 'vue'
-import VAccordion from './VAccordion/'
 import VAlert from './VAlert/'
 import VBreadcrumbs from './VBreadcrumbs/'
 import VButton from './VButton/'
@@ -19,7 +18,6 @@ import VTable from './VTable/'
 import VTestimonial from './VTestimonial/'
 import VTooltip from './VTooltip/'
 
-Vue.component('v-accordion', VAccordion);
 Vue.component('v-alert', VAlert);
 Vue.component('v-breadcrumbs', VBreadcrumbs);
 Vue.component('v-button', VButton);

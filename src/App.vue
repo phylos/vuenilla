@@ -12,6 +12,15 @@
       </v-tab>
     </v-tabs>
 
+    <hr>
+
+    <v-expander expanderTitle="Expander 1">
+      This is some content for Expander 1
+    </v-expander>
+    <v-expander expanderTitle="Expander 2">
+      This is some content for Expander 2
+    </v-expander>
+
     <p>Built by:</p>
     <img src="./assets/logo-phylos.svg">
   </div>
