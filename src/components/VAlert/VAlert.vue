@@ -1,11 +1,12 @@
 <template>
   <div class="alert">
-    Alert
+    <slot/>
   </div>
 </template>
 
 <script>
   export default {
+    props: ['type', 'color'],
     data () {
       return {
       }
