@@ -15,14 +15,14 @@
         showExpanderContent: false
       }
     },
-     methods: {
-       toggleExpander () {
-         if (this.showExpanderContent === false) {
-           this.showExpanderContent = true;
-         } else {
-           this.showExpanderContent = false;
-         }
-       }
-     }
+    methods: {
+      toggleExpander () {
+        if (this.showExpanderContent === false) {
+          this.showExpanderContent = true;
+        } else {
+          this.showExpanderContent = false;
+        }
+      }
+    }
   }
 </script>

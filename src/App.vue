@@ -47,6 +47,9 @@
     <!--List-->
 
     <!--Modal-->
+    <v-modal trigger="Open Modal">
+      This is some modal content. Yay.
+    </v-modal>
 
     <!--Pagination-->
 
