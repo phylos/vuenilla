@@ -65,6 +65,9 @@
     </v-tabs>
 
     <!--Testimonial-->
+    <v-testimonial quoter="Phylos" image="https://via.placeholder.com/200x200">
+      This is a testimonial.
+    </v-testimonial>
 
     <!--Tooltip-->
 
