@@ -17,6 +17,17 @@
     </v-card>
 
     <!--Carousel-->
+    <v-slider arrows circles>
+      <v-slide title="One" :selected="true">
+        Slider content 1
+      </v-slide>
+      <v-slide title="Two">
+        Slider content 2
+      </v-slide>
+       <v-slide title="Three">
+        Slider content 3
+      </v-slide>
+    </v-slider>
 
     <!--Dropdown-->
     <v-dropdown title="Dropdown">

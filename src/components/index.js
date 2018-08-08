@@ -3,7 +3,6 @@ import VAlert from './VAlert/'
 import VBreadcrumbs from './VBreadcrumbs/'
 import VButton from './VButton/'
 import VCard from './VCard/'
-import VCarousel from './VCarousel/'
 import VDropdown from './VDropdown/'
 import VHero from './VHero/'
 import VExpander from './VExpander/'
@@ -13,6 +12,7 @@ import VList from './VList/'
 import VModal from './VModal/'
 import VPagination from './VPagination/'
 import VSlab from './VSlab/'
+import VSlider from './VSlider/'
 import VTabs from './VTabs/'
 import VTable from './VTable/'
 import VTestimonial from './VTestimonial/'
@@ -22,7 +22,6 @@ Vue.component('v-alert', VAlert);
 Vue.component('v-breadcrumbs', VBreadcrumbs);
 Vue.component('v-button', VButton);
 Vue.component('v-card', VCard);
-Vue.component('v-carousel', VCarousel);
 Vue.component('v-dropdown', VDropdown);
 Vue.component('v-hero', VHero);
 Vue.component('v-expander', VExpander);
@@ -32,6 +31,7 @@ Vue.component('v-list', VList);
 Vue.component('v-modal', VModal);
 Vue.component('v-pagination', VPagination);
 Vue.component('v-slab', VSlab);
+Vue.component('v-slider', VSlider);
 Vue.component('v-tabs', VTabs);
 Vue.component('v-table', VTable);
 Vue.component('v-testimonial', VTestimonial);
