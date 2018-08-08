@@ -14,7 +14,6 @@ $ npm install --save vuenilla
 - Breadcrumbs
 - Button
 - Card
-- Carousel
 - Dropdown
 - Hero
 - Expander
@@ -24,6 +23,7 @@ $ npm install --save vuenilla
 - Modal
 - Pagination
 - Slab
+- Slider
 - Tabs
 - Table
 - Testimonial
