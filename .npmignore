@@ -1,0 +1,11 @@
+.DS_Store
+docs/
+src/
+.babelrc
+.editorconfig
+.gitignore
+deploy.sh
+index.html
+package-lock.json
+webpack.config.json
+yarn.lock
