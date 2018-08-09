@@ -3,6 +3,37 @@
   <head>
     <meta charset="utf-8">
     <title>Vuenilla - Unstyled Vue.js component library.</title>
+    <style lang="scss"> 
+      #app { 
+        font-family: 'Avenir', Helvetica, Arial, sans-serif; 
+        -webkit-font-smoothing: antialiased; 
+        -moz-osx-font-smoothing: grayscale; 
+        text-align: center; 
+        color: #2c3e50; 
+        margin-top: 60px; 
+      } 
+        
+      img { 
+        width: 320px; 
+      } 
+      h1, h2 { 
+        font-weight: normal; 
+      } 
+        
+      ul { 
+        list-style-type: none; 
+        padding: 0; 
+      } 
+        
+      li { 
+        display: inline-block; 
+        margin: 0 10px; 
+      } 
+        
+      a { 
+        color: #42b983; 
+      } 
+    </style> 
   </head>
   <body>
     <div id="app">
@@ -12,13 +43,15 @@
       <v-alert type="banner" color="orange">Hello, I'm a nifty alert.</v-alert>
   
       <!--Breadcrumbs-->
+
+      <!--Button-->
   
       <!--Card-->
       <v-card>
-        <template slot="title">Card Title</template>
-        <template slot="image">Image</template>
-        <template slot="content">This is a blurb about this card.</template>
-        <template slot="button">CTA Button</template>
+        <v-title>Card Title</v-title>
+        <v-image>Card Image</v-title>
+        <v-content>Card Content</v-title>
+        <v-button>Card Button</v-title>
       </v-card>
   
       <!--Dropdown-->
@@ -38,11 +71,11 @@
   
       <!--Hero-->
       <v-hero image="https://via.placeholder.com/200x200">
-        <template slot="hero-upper">Plant Sex Test</template>
-        <template slot="hero-title">No More Guesswork.</template>
-        <template slot="hero-subtitle">Just Correct Results.</template>
-        <template slot="hero-content">Force flowering cannabis and hemp plants can reduce yields as much as 20%.</template>
-        <template slot="hero-button">Order Kits</template>
+        <v-title>Hero Pretitle</v-title>
+        <v-title>Hero Title</v-title>
+        <v-title>Hero Subtitle</v-title>
+        <v-content>Just some copy for the hero content.</v-content>
+        <v-button>Hero Button</v-button>
       </v-hero>
   
       <!--Icon-->
