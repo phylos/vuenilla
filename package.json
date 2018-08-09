@@ -1,6 +1,6 @@
 {
   "name": "vuenilla",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Unstyled Vue.js component library.",
   "main": "index.js",
   "scripts": {
