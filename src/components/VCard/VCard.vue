@@ -1,7 +1,7 @@
 <template>
   <div class="v-card">
-    <div class="v-card-header" v-if="$slots.header">
-      <slot name="header"></slot>
+    <div class="v-card-title" v-if="$slots.title">
+      <slot name="title"></slot>
     </div>
     <div class="v-card-image" v-if="$slots.image">
       <slot name="image"></slot>
@@ -9,8 +9,8 @@
     <div class="v-card-content" v-if="$slots.content">
       <slot name="content"></slot>
     </div>
-    <div class="v-card-footer" v-if="$slots.footer">
-      <slot name="footer"></slot>
+    <div class="v-card-button" v-if="$slots.button">
+      <slot name="button"></slot>
     </div>
   </div>
 </template>
