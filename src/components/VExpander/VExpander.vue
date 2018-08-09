@@ -1,7 +1,7 @@
 <template>
-  <div class="expander">
-    <a v-on:click="toggleExpander" href="javascript:void(0)" class="expander-trigger">{{ expanderTitle }}</a>
-    <div v-show="showExpanderContent" class="expander-content">
+  <div class="v-expander">
+    <a v-on:click="toggleExpander" href="javascript:void(0)" class="v-expander-trigger">{{ expanderTitle }}</a>
+    <div v-show="showExpanderContent" class="v-expander-content">
       <slot></slot>
     </div>
   </div>

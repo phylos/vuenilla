@@ -7,5 +7,5 @@ src/
 deploy.sh
 index.html
 package-lock.json
-webpack.config.json
+webpack.config.js
 yarn.lock

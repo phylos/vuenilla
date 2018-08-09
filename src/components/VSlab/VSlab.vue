@@ -1,5 +1,5 @@
 <template>
-  <div class="slab">
+  <div class="v-slab">
     Slab
   </div>
 </template>

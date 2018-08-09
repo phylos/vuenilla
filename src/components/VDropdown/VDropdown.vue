@@ -1,6 +1,6 @@
 <template>
-  <div class="dropdown">
-    <span v-on:click="toggleContent" class="droptoggle">{{ title }}</span>
+  <div class="v-dropdown">
+    <span v-on:click="toggleContent" class="v-droptoggle">{{ title }}</span>
     <ul v-show="showContent">
       <li>One</li>
       <li>Two</li>

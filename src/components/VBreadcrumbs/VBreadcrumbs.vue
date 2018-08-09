@@ -1,5 +1,5 @@
 <template>
-  <div class="breadcrumbs">
+  <div class="v-breadcrumbs">
     Breadcrumbs
   </div>
 </template>

@@ -1,5 +1,5 @@
 <template>
-  <div class="table">
+  <div class="v-table">
     Table
   </div>
 </template>

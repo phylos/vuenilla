@@ -1,9 +1,9 @@
 <template>
-  <div class="modal">
-    <a v-on:click="toggleModal" class="modal-trigger">{{ trigger }}</a>
-    <div v-show="showModalContent" class="modal-wrapper">
-      <a class="modal-close">X</a>
-      <div class="modal-content">
+  <div class="v-modal">
+    <a v-on:click="toggleModal" class="v-modal-trigger">{{ trigger }}</a>
+    <div v-show="showModalContent" class="v-modal-wrapper">
+      <a class="v-modal-close">X</a>
+      <div class="v-modal-content">
         <slot></slot>
       </div>
     </div>

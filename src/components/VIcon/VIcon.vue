@@ -1,5 +1,5 @@
 <template>
-  <div class="icon">
+  <div class="v-icon">
     Icon
   </div>
 </template>

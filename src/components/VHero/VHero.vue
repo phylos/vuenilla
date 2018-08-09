@@ -1,7 +1,7 @@
 <template>
-  <div class="hero" :style="{ backgroundImage: 'url(' + image + ')' }">
+  <div class="v-hero" :style="{ backgroundImage: 'url(' + image + ')' }">
     <div class="wrapper">
-      <div class="panel">
+      <div class="v-panel">
         <span v-if="$slots['hero-upper']">
           <slot name="hero-upper"></slot>
         </span>

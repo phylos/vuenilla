@@ -1,5 +1,5 @@
 <template>
-  <div class="pagination">
+  <div class="v-pagination">
     Pagination
   </div>
 </template>

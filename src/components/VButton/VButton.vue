@@ -1,5 +1,5 @@
 <template>
-  <div class="button">
+  <div class="v-button">
     Button
   </div>
 </template>

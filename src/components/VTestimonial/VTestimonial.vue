@@ -1,5 +1,5 @@
 <template>
-  <blockquote class="testimonial">
+  <blockquote class="v-testimonial">
     <p><slot></slot></p>
     <img :src="image" :alt="quoter" />
     <cite>{{ quoter }}</cite>

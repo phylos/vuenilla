@@ -1,5 +1,5 @@
 <template>
-  <div class="alert">
+  <div class="v-alert">
     <slot/>
   </div>
 </template>

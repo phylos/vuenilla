@@ -1,5 +1,5 @@
 <template>
-  <div class="tooltip">
+  <div class="v-tooltip">
     Tooltip
   </div>
 </template>
