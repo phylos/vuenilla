@@ -1,6 +1,6 @@
 <template>
   <div class="v-button">
-    Button
+    <slot/>
   </div>
 </template>
 

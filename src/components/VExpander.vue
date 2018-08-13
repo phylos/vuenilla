@@ -1,6 +1,6 @@
 <template>
   <div class="v-expander">
-    <a v-on:click="toggleExpander" href="javascript:void(0)" class="v-expander-trigger">{{ expanderTitle }}</a>
+    <a v-on:click="toggleExpander" href="javascript:void(0)" class="v-expander-trigger">{{ title }}</a>
     <div v-show="showExpanderContent" class="v-expander-content">
       <slot></slot>
     </div>
@@ -9,7 +9,7 @@
 
 <script>
   export default {
-    props: ['expanderTitle'],
+    props: ['title'],
     data () {
       return {
         showExpanderContent: false

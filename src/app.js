@@ -8,7 +8,6 @@ import VDropdown from './components/VDropdown.vue'
 import VHero from './components/VHero.vue'
 import VExpander from './components/VExpander.vue'
 import VForm from './components/VForm.vue'
-import VIcon from './components/VIcon.vue'
 import VList from './components/VList.vue'
 import VModal from './components/VModal.vue'
 import VPagination from './components/VPagination.vue'
@@ -38,7 +37,6 @@ new Vue({
     'v-hero': VHero,
     'v-expander': VExpander,
     'v-form': VForm,
-    'v-icon': VIcon,
     'v-list': VList,
     'v-modal': VModal,
     'v-pagination': VPagination,

@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Vuenilla - Unstyled Vue.js component library.</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <style lang="scss"> 
       #app { 
         font-family: 'Avenir', Helvetica, Arial, sans-serif; 
@@ -45,6 +46,10 @@
       <!--Breadcrumbs-->
 
       <!--Button-->
+      <v-button>
+        <i class="fas fa-cookie-bite"></i>
+        Click Me
+      </v-button>
   
       <!--Card-->
       <v-card>
@@ -60,10 +65,10 @@
       </v-dropdown>
   
       <!--Expander-->
-      <v-expander expanderTitle="Expander 1">
+      <v-expander title="Expander 1">
         This is some content for Expander 1
       </v-expander>
-      <v-expander expanderTitle="Expander 2">
+      <v-expander title="Expander 2">
         This is some content for Expander 2
       </v-expander>
   
@@ -77,9 +82,7 @@
         <v-content>Just some copy for the hero content.</v-content>
         <v-button>Hero Button</v-button>
       </v-hero>
-  
-      <!--Icon-->
-  
+    
       <!--List-->
   
       <!--Modal-->
