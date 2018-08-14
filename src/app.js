@@ -10,6 +10,7 @@ import VExpander from './components/VExpander.vue'
 import VForm from './components/VForm.vue'
 import VList from './components/VList.vue'
 import VModal from './components/VModal.vue'
+import VPanel from './components/VPanel.vue'
 import VPagination from './components/VPagination.vue'
 import VSlab from './components/VSlab.vue'
 import VSlide from './components/VSlide.vue'
@@ -39,6 +40,7 @@ new Vue({
     'v-form': VForm,
     'v-list': VList,
     'v-modal': VModal,
+    'v-panel': VPanel,
     'v-pagination': VPagination,
     'v-slab': VSlab,
     'v-slide': VSlide,
