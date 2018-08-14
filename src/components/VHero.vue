@@ -1,6 +1,6 @@
 <template>
   <div class="v-hero" :style="{ backgroundImage: 'url(' + image + ')' }">
-    <div class="v-hero-wrap">
+    <div class="v-wrapper">
       <slot/>
     </div>
   </div>
